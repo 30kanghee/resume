@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body style="padding-top:10px">
+<body>
     <header id="header">
-        <!-- 이력서 헤더 : 이름과 타이틀 작성 -->
-        <h1>서강희</h1>
-        <small>문제해결을 즐기는 개발자</small>
+        <div style="margin-bottom:2rem;">
+          <h1>서강희</h1>
+          <small>문제해결을 즐기는 개발자</small>
+        </div>
+        
         <p class="text-right">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           <a href="mailto:wet814@naver.com">wet814@naver.com</a>
@@ -28,12 +30,12 @@
       </header>
       
       <main>
-        <article id="mainLeft">
+        <article>
           <section>
             <h2 class="text-center">ABOUT</h2>
             <div class='dotted-line'></div>
             <p>
-              Python & FastAPI / Typescript & React 기반의 5년차 웹개발자 입니다. 주로 검색/인공지능/챗봇 관련 기술들을 활용하여 기업의 문제를 해결하는 서비스를 만들었습니다.<br><br>              
+              Python & FastAPI / Typescript & React 기반의 5년 차 웹 개발자입니다. 주로 검색/인공지능/챗봇 관련 기술들을 활용하여 기업의 문제를 해결하는 서비스를 만들었습니다.<br><br>              
               문제를 찾아내고 해결하는 과정을 즐거워하며, 이를 토대로 업무의 효율성과 서비스의 가치를 올리기 위해 노력해왔습니다. 회사에서 처음으로 기술공유 세션을 제안하고 실행 했으며, 서비스 경쟁력 상승을 위한 신규 기능을 제안한 경험이 있습니다.
             </p>
           </section>
@@ -50,7 +52,7 @@
 
               </div>
               <div>
-                <p class="sub-title text-center">문서 기반의 인공지능 챗봇</p>
+                <p class="sub-title text-center">문서 기반의 생성형 AI 챗봇</p>
                 <ul>
                   <li>전반적인 도메인 설계</li>
                   <li>내외부 운영 툴 개발 (React/TypeScript)</li>
@@ -75,10 +77,10 @@
                 <ul>
                   <li>내외부 운영 툴 개발 (React/TypeScript)</li>
                   <li>CI/CD 자동화 (Git action / Azure cdn)</li>
-                  <li>상태관리 라이브러리 변경 (Recoil & React Query)</li>
+                  <li>상태 관리 라이브러리 변경 (Recoil & React Query)</li>
                   <li>OAuth 기반의 카페24 쇼핑몰 데이터 연동</li>
                   <li>쇼핑몰 고객 마케팅 및 CRM 시스템 개발</li>
-                  <li>데스크톱 & 모바일 기반의 채팅상담 어플리케이션 개발</li>
+                  <li>데스크톱 & 모바일 기반의 채팅상담 애플리케이션 개발</li>
                 </ul>
 
               </div>
@@ -87,13 +89,13 @@
             <div class="work-experience">
               <div>
                 <p>기업내 KMS</p>
-                <small>2021.01 ~ 2023.06</small>
+                <small>2019.01~2020.12</small>
 
               </div>
               <div>
                 <p class="sub-title text-center">기업 및 공공기관 정보검색 시스템</p>
                 <ul>
-                  <li>대우조선해양, 한국정보진흥원, 신한은행 등 여러 조직의 내부 정보검색 시스템 구현</li>
+                  <li>대우조선해양, 한국 정보진흥원, 신한은행 등 여러 조직의 내부 정보검색 시스템 구현</li>
                   <li>이마트 AI챗봇 검색 시스템  - <a href="https://www.etnews.com/20210122000149">이마트, 매장 전용 AI 챗봇 '이똑이똑' 내놓는다</a></li>
                 </ul>
 
@@ -109,44 +111,85 @@
             <div class="compentency">
               <h3 class="text-center">적극적 문제해결</h3>
               <ul>
-                <li>스윙챗. 챗봇의 사용성을 증진하기 위하여 챗봇의 메인화면에 고객의 컨텐츠를 넣을 수 있는 기능 기획 및 개발</li>
-                <li>다양한 웹사이트에 어울리는 챗봇 디자인을 만들 수 없다는 한계를 해결하기 위해 인공지능 기반의 디자인 시스템 기획</li>
-                <li>효율적인 학습을 위한 사내 최초로 기술세션 제안 및 실행</li>
+                <li>'스윙챗'. 챗봇의 사용성을 증진하기 위하여 챗봇의 메인화면에 고객의 콘텐츠를 넣을 수 있는 기능 기획 및 개발</li>
+                <li>'스윙챗'. 웹사이트에 어울리는 챗봇 디자인을 자동 생성하는 시스템 기획</li>
+                <li>효율적인 학습을 위한 사내 최초로 기술 세션 제안 및 실행</li>
               </ul>
             </div>
 
             <div class="compentency">
               <h3 class="text-center">신규 서비스 런칭 및 운영</h3>
               <ul>
-                <li>스윙챗. 초기 멤버로 합류해 1년간의 개발 후 2년간 운영 및 추가 개발</li>
-                <li>사이트버니. 개발 TF 리드, 현재 얼리억세스 진행중</li>
+                <li>'스윙챗'. 초기 멤버로 합류해 1년간의 개발 후 2년간 운영 및 추가 개발</li>
+                <li>'사이트버니'. 개발 TF 리드, 현재 얼리억세스 진행 중</li>
               </ul>
             </div>
 
             <div class="compentency">
-              <h3 class="text-center">새로운 기술을 빠르게 서비스에 적용</h3>
+              <h3 class="text-center">레거시 시스템 리팩토링/리엔지니어링</h3>
               <ul>
-                <li>1000여명의 화장품 판매원이 사용하는 채팅상담 모바일 애플리케이션 Flutter를 활용하여 3개월 만에 오픈 (2022.06 ~ 2022.09)</li>
+                <li>'스윙챗'. 내외부 관리 툴 (JavaScript => TypeScript) 마이그레이션</li>
+                <li>'스윙챗'. Backend 프레임워크 (Flask => FastAPI) 마이그레이션</li>
+                <li>'사이트버니'. Backend 아키텍처 DDD 적용 </li>
+              </ul>
+            </div>
+
+            <div class="compentency">
+              <h3 class="text-center">새로운 기술을 서비스에 반영</h3>
+              <ul>
+                <li>'스윙챗'. 1000여 명의 화장품 판매원이 사용하는 채팅상담 모바일 애플리케이션 Flutter를 활용하여 3개월 만에 양대 마켓 오픈 (2022.06 ~ 2022.09)</li>
               </ul>
             </div>
             
 
           </section>
 
-          <section>
+          <section style="margin-bottom:5rem;">
             <h2 class="text-center">SKILL</h2>
+            <div class='dotted-line'></div>
 
             <div class="skill">
               <div>
-                <p>Backend</p>
+                <p class="category">Backend</p>
               </div>
 
               <div>
+                <ul>
+                  <li>Python, FastApi,  Pydantic, Flask</li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="skill">
+              <div>
+                <p class="category">DevOps</p>
+              </div>
+
+              <div>
+                <ul>
+                  <li>MongoDB, Redis</li>
+                  <li>Azure/AWS (CDN, Server Instance, email, File server 등)</li>
+                  <li>Prometheus/Grafana</li>
+                </ul>
 
               </div>
             </div>
             
-            
+            <div class="skill">
+              <div>
+                <p class="category">Frontend</p>
+              </div>
+
+              <div>
+                <ul>
+                  <li>JavaScript, TypeScript</li>
+                  <li>React.js</li>
+                  <li>HTML/CSS</li>
+                </ul>
+
+              </div>
+            </div>
           </section>            
         </article>
       </main>
